@@ -1,0 +1,10 @@
+h1{
+    color: #ff0000;
+}
+.dis-none{
+display:none;
+}
+
+p:not(.dis-none):hover{
+    transform:scale(1,1.2);
+}
